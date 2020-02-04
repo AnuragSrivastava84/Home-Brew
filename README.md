@@ -5,10 +5,11 @@ The purpose of this document is to give the overview about homebrew.
 
 ### Why do we use homebrew?
 
-_“Homebrew is a free and open-source software package management system that simplifies the installation of software on macOS and Linux. It is similar to the other package manager like apt, yum etc. which are available for the Linux system”_
+*“Homebrew is a free and open-source software package management system that simplifies the installation of software on macOS and Linux. It is similar to the other package manager like apt, yum etc. which are available for the Linux system”*
 
 The purpose of a package management is to install the software by identify a legitimate source of the particular software and ensuring that any dependencies required by that software are installed and present as per the required version level. It is taking the cumbersome job of installation of the software from the users who are new to the MacOS and Linux system.
 
+<br>
 
 # Commands:
 The list of which are required to install, uninstall and manage the pacakge or software are given below:
@@ -115,6 +116,8 @@ If you ever come up with any problem with homebrew then homebrew comes up with s
 ```mardown
   brew doctor
 ```
+
+<br>
 
 # Homebrew Cask
 To install Mac OS native application homebrew uses cask to install Mac OS application into the system

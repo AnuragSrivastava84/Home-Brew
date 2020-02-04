@@ -18,9 +18,9 @@ Commands:
 ```
 
 - To list out the packages we can install with home brew
-   ```mardown
+```mardown
    brew search
-   ```
+```
 
 - To search any package
 ```mardown
@@ -33,7 +33,7 @@ Commands:
  ```     
 
 
-Note: 
+### Note: 
 Home-brew installs the package into their own folder structure and then symlinks their files into /usr/local
 The location of the home-brew package is 
 /usr/local/Cellar/…
@@ -45,7 +45,7 @@ brew info <package name>
     
 If we use the same command to get the info of not installed package then the brew command will give all the details of the package and their respective dependencies, which is required to install.
 
-- To uninstall the package
+-  **To uninstall the package**
 ```mardown
     brew uninstall <package name>
  ```   
@@ -85,9 +85,10 @@ If we use the same command to get the info of not installed package then the bre
     brew unpin <package name>
 ```    
 
-
-Note:
+```mardown
+### Note:
 By default home-brew uninstall the old version packages after 30 days.
+```
 
 - To remove all the older version of the packages manually
 ```mardown
@@ -104,8 +105,8 @@ By default home-brew uninstall the old version packages after 30 days.
 ```    
 
 
-Note:
-If you ever come up with any problem with home-brew then home-brew comes up with self diagnosis tool, which diagnose the issue and let you know
+### Note:
+If you ever come up with any problem with home-brew then home-brew comes up with self diagnosis tool, which diagnose the issue.
 
 - To diagnose home-brew issue
 ```mardown
@@ -147,5 +148,5 @@ If the user does not want the home-brew into the system
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
  ```   
 
-Note: 
-if we uninstall the brew then the package we have installed through the brew will also get uninstalled except the software or app which is installed by using brew cask.
+### Note: 
+if we uninstall the brew then the package we have installed through the brew will also get uninstalled except the software or application which is installed by using brew cask.

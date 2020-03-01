@@ -12,7 +12,7 @@ The purpose of a package management is to install the software by identify a leg
 <br>
 
 # Commands:
-The list of which are required to install, uninstall and manage the pacakge or software are given below:
+The list of commands which are required to install, uninstall and manage the pacakge or software are given below:
 
 - **To install homebrew**
 ```mardown
